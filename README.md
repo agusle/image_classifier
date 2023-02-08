@@ -30,6 +30,8 @@
 
 - **Solution**: For anybody that has done any web work in the last decade, the solution will be obvious: let's build a web-service with an API that the web development team will know how to integrate with. This approach decouples the problem, solution and implementation! But let's go beyond the simple of approach where you have a website that accepts a file upload and runs some code to process the file on the web server. Let's create a better, more robust and scalable system! A simple flow diagram of the possible solution:
 
+![project-archiquetcture](img/image_classifier_architecture.png)
+
 This architecture can easily be replicated and run on your local development machine using docker containers and it will work and behave like the real thing.
 
 ------------------
