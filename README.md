@@ -32,7 +32,6 @@
 
 This architecture can easily be replicated and run on your local development machine using docker containers and it will work and behave like the real thing.
 
-
 ------------------
 
 ## ⚡️ Install and Run 
@@ -171,8 +170,7 @@ For this task, you must see the files `locustfile.py` from `stress_test` folder.
 
 You can easily launch more instances for a particular service using `--scale SERVICE=NUM` when running `docker-compose up` command (see [here](https://docs.docker.com/compose/reference/up/)). Scale `model` service to 2 or even more instances and check the performance with locust.
 
-Here is a short report detailing the hardware specs from the server used to run the service and show a comparison in the results obtained for different number of users being simulated and instances deployed:
-REPORT LOCUST
+Here is a [short report](https://github.com/agusle/image_classifier/blob/main/stress_test/stress_test_report.md) detailing the hardware specs from the server used to run the service and show a comparison in the results obtained for different number of users being simulated and instances deployed.
 
 ## Part 3 - Getting feedback from users
 
